@@ -20,6 +20,7 @@ DFCI_Code/
 ├── gc_bin_coverage.py        # Task 2: Mean coverage by GC bins
 ├── variant_annotate.py       # Task 3: Ensembl variant annotation
 ├── test.ipynb                # Jupyter notebook with commented implementations
+├── sql-and-cloud.ipynb       # Answers to cloud computing and sql questions.
 ├── sample_files/             # Sample input data (ignored large files via .gitignore)
 │   ├── fastq/                # Example FASTQ files
 │   ├── fasta/                # Example FASTA file
@@ -30,17 +31,6 @@ DFCI_Code/
 
 ---
 
-## Prerequisites
-
-- **Python 3.7+**
-- **requests** library (for `variant_annotate.py`):
-  ```bash
-  pip install requests
-  ```
-
-No other third‑party packages are required; all scripts use only Python built‑ins.
-
----
 
 ## Usage
 
@@ -113,11 +103,4 @@ jupyter lab test.ipynb
 ## Git & Data Management
 
 - **Large reference files** (e.g. `hg19_annotations.gtf`) are excluded by `.gitignore`.
-- If you need to version such files, consider using **Git LFS**.
-
----
-
-### License
-
-This code is released under the MIT License. Feel free to use and modify as needed.
 
