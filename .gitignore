@@ -1,0 +1,9 @@
+# ignore huge reference data
+sample_files/gtf/hg19_annotations.gtf
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
